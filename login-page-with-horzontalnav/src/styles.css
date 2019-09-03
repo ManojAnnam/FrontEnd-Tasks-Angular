@@ -2,3 +2,6 @@
 
 /* Add theme for angular/material to work */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/* Add Bootstrap to angular global styles */
+ @import '~bootstrap/dist/css/bootstrap.min.css'; 
