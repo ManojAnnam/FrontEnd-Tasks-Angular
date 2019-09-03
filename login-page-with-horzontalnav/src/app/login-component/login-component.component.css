@@ -1,0 +1,35 @@
+.row {
+  height: 50px;
+  background-color: #673ab7;
+}
+
+.title {
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 3%;
+  color: white;
+}
+
+.about {
+  margin-top: 10%;
+  color: white;
+}
+
+.contact {
+  margin-top: 10%;
+  color: white;
+}
+
+.logincard{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 32%;
+    min-height: 200px;
+    min-width: 450px;
+}
+
+.login-button{
+    background-color: #673ab7;
+    color: white;
+
+}

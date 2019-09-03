@@ -5,7 +5,9 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponentComponent } from './login-component/login-component.component';
-
+import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material';
 @NgModule({
    declarations: [
       AppComponent,
@@ -14,7 +16,10 @@ import { LoginComponentComponent } from './login-component/login-component.compo
    imports: [
       BrowserModule,
       BrowserAnimationsModule,
-      AppRoutingModule
+      AppRoutingModule,
+      MatButtonModule,
+      MatFormFieldModule,
+      MatInputModule
    ],
    providers: [],
    bootstrap: [
