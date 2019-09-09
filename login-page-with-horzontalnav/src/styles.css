@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Add theme for angular/material to work */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 /* Add Bootstrap to angular global styles */
- @import '~bootstrap/dist/css/bootstrap.min.css'; 
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/*Add font awesome icons */
+@import '../node_modules/font-awesome/css/font-awesome.css';
